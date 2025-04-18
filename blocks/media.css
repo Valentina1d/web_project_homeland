@@ -1,15 +1,74 @@
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .logo {
+    width: 200px;
+    height: auto;
+    margin: 24px auto;
+  }
 
-@media screen and (min-width: 1025px) {
-    
+  h1 {
+    font-size: 2rem;
   }
-  
- 
-  @media screen and (min-width: 545px) and (max-width: 1024px) {
-    
+
+  .subtitle {
+    font-size: 1rem;
+    margin: 10px 0 20px;
   }
-  
-  
-  @media screen and (max-width: 544px) {
-    
+
+  .hero-image {
+    width: 100%;
+    height: auto;
   }
-  
+
+  .intro {
+    padding: 0 24px;
+  }
+
+  .intro h2 {
+    font-size: 1.2rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .quote {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .logo {
+    width: 150px;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .intro {
+    padding: 0 16px;
+  }
+
+  .intro h2 {
+    font-size: 1rem;
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+  }
+
+  .quote {
+    font-size: 0.85rem;
+  }
+}
