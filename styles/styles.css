@@ -78,8 +78,8 @@ footer p {
 
 .photo-grid__container {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
 }
 
 .photo-grid__item {
@@ -90,9 +90,14 @@ footer p {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 .places {
-  max-width: 1280px;
-  margin: 60px auto;
-  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr; /* una columna en mobile */
+  gap: 40px;
+}
+@media (min-width: 768px) {
+  .places {
+    grid-template-columns: repeat(2, 1fr); /* dos columnas en pantallas medianas */
+  }
 }
 
 .places__title {
