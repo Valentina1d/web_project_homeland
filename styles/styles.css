@@ -152,13 +152,12 @@ footer p {
 .place__button {
   display: inline-block;
   padding: 12px 24px;
-  color: white;
   text-decoration: none;
   font-weight: bold;
   border: none;
   border-radius: 4px;
-  background: linear-gradient(90deg, #007CF0, #0053B3);
-  background: linear-gradient(90deg, #007CF0 0%, #00DFD8 100%);
+  background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
+  color: white; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease;
 
