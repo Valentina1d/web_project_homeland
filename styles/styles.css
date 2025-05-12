@@ -111,7 +111,6 @@ footer p {
   flex-direction: column;
   display: grid;
   gap: 80px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .place {
@@ -126,7 +125,6 @@ footer p {
 }
 
 .place__image {
-  width: 100%;
   width: 100%;
   height: auto; 
   grid-column: 1;
