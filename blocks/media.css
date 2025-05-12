@@ -72,3 +72,30 @@
     font-size: 0.85rem;
   }
 }
+.photo-grid__container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 12px;
+  }
+  .photo-grid__item {
+    height: 180px; 
+  }
+  .places {
+    grid-template-columns: 1fr;
+    gap: 30px; 
+  }
+  .place {
+    grid-template-columns: 1fr; 
+  }
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  /* Tus estilos actuales */
+  .photo-grid__container {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+  .places {
+    grid-template-columns: 1fr; 
+  }
+  .place {
+    grid-template-columns: 1fr 1fr; 
+  }
+}
