@@ -39,6 +39,7 @@
   max-height: 460px;
   object-fit: cover;
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .place__text {
@@ -62,7 +63,6 @@
 
 .place__button:hover {
   opacity: 0.9;
-  background-color: #0056b3;
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
