@@ -2,7 +2,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  margin-bottom: 50px;
   align-items: start;
+}
+
+.place:hover {
+  transform: none;
 }
 
 .place__header {
@@ -10,9 +15,15 @@
   margin-bottom: 16px;
 }
 
+.place__content {
+  grid-column: 2;
+}
+
 .place__name {
-  font-size: 1.3rem;
-  margin-bottom: 4px;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  max-width: 100%;
 }
 
 .place__meta {
@@ -24,27 +35,33 @@
 
 .place__image {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  height: 100%;
+  max-height: 460px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .place__text {
-  font-size: 1rem;
-  margin-bottom: 12px;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
 
 .place__button {
   display: inline-block;
-  padding: 10px 16px;
-  background-color: #007bff;
-  color: white;
+  padding: 12px 24px;
   text-decoration: none;
+  font-weight: bold;
+  border: none;
   border-radius: 4px;
-  transition: background-color 0.3s ease;
+  background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
 }
 
 .place__button:hover {
+  opacity: 0.9;
   background-color: #0056b3;
 }
 
