@@ -64,3 +64,10 @@ footer p {
   font-size: 0.85rem;
   margin-top: 10px;
 }
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
