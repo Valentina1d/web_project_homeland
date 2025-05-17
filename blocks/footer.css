@@ -1,5 +1,14 @@
-.footer p {
-    font-size: 0.85rem;
-    margin-top: 10px;
+.footer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  }
+  
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px; 
+    font-weight: 400;
+    font-family: Inter;
   }
   
